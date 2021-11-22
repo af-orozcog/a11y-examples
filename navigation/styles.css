@@ -13,8 +13,18 @@ form {
   margin-top: 1rem;
   padding: 0.5rem;
   background-color: rgb(132, 132, 220);
-  color: white;
+  color: black;
   border-radius: 0.7rem;
   text-align: center;
   cursor: pointer;
+}
+
+.customInput:focus{
+  outline-color: #0c08ff;
+  background-color: azure;
+}
+
+.buttonInput:focus{
+  outline-color: #0c08ff;
+  background-color: blue;
 }

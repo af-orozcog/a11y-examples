@@ -10,16 +10,16 @@
   <body>
     <main>
       <h1>Navigation & Tabs</h1>
-      <div class="container">
+      <section class="container">
         <form action="">
-          <p>First Name:</p>
-          <input type="text" />
-          <p>Last Name:</p>
-          <input type="text" />
-          <div onclick="printMessage()" class="button">Submit</div>
+          <label for="FirstName">First Name:</label>
+          <input type="text" id="FirstName" name="First Name" class="customInput"/>
+          <label for="LastName">Last Name:</label>
+          <input type="text" id="LastName" name="Last Name" class="customInput"/>
+          <button onclick="printMessage()" class="button buttonInput">Submit</button>
         </form>
-        <img src="../assets/images/dog.jpeg" />
-      </div>
+        <img src="../assets/images/dog.jpeg" alt="dog picture"/>
+      </section>
     </main>
     <script src="./index.js"></script>
   </body>
